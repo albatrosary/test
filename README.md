@@ -18,3 +18,6 @@ git submodule update -i
 ```
 git submodule foreach git pull origin master
 ```
+
+サブモジュールは`git submodule update -i`を実行したときの状態のモジュールを github から落としてくる  
+最新のものが必要な場合はこのコマンドを発行する
